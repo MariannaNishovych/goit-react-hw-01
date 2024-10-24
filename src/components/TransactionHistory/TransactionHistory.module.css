@@ -1,0 +1,33 @@
+table {
+width: 600px;
+margin: 0 auto;
+border: 2px solid black;
+border-spacing: 0;
+}
+
+thead {
+margin: 20px auto;
+border: 2px solid black;
+color: white;
+background-color: rgb(20, 18, 18);
+}
+
+.menu {
+background-color: #353737;
+color: #fff;
+}
+
+.menu th {
+    padding: 7px 50px;
+    border: 2px solid black;
+}
+
+.items td {
+border: 1px solid black;
+text-align: center;
+text-transform: capitalize;
+}
+
+.items tr:nth-child(even) {
+    background-color: #adb0b0;
+}
