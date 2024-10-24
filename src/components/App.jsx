@@ -1,8 +1,12 @@
-import { useState } from 'react'
+// import { useState } from 'react'
 
 import './App.css'
+
 import Profile from './Profile/Profile'
-import userData from "../userData.json"
+import userData from '../userData.json'
+
+import friends from '../friends.json'
+import FriendList from './FriendList/FriendList'
 
 
 const App = () => {
@@ -15,6 +19,7 @@ const App = () => {
         image={userData.avatar}
         stats={userData.stats}
       />
+      <FriendList friends={friends} />
     </>
   );
 };

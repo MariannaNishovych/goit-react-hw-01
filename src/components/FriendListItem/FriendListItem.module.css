@@ -1,0 +1,20 @@
+.status{
+margin: 0;
+color: red;
+}
+
+.statusOn {
+color: green;
+}
+
+.img {
+margin: 0;
+margin-bottom: 10px;
+}
+
+.name{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 10px;
+}
